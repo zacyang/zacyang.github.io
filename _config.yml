@@ -1,5 +1,5 @@
 # Site settings
-title:       演程序猿的员
+title:       "演程序猿的员"
 email:       yangyang@thoughtworks.com
 author:      Yang Yang
 description: "演有致极，技无穷尽"
@@ -11,15 +11,15 @@ google_analytics: "UA-64709665-1"
 
 # Optional features
 animated:           true
-show_related_posts: false
+show_related_posts: true
 show_post_footers:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: '请保持吐槽秩序'
+disqus_shortname: disqus_j9An9S59wA
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 github_username: 'zacyang'
 stackoverflow_id:
 twitter_username:
@@ -31,7 +31,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
@@ -48,7 +48,7 @@ share_hackernews: false
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+  permalink:    /:month-:day-:year/:title.html
 paginate:     3
 sass:
   compressed: true

@@ -32,7 +32,7 @@ flattr_button:
 
 # Post sharing icons
 show_sharing_icons: true
-share_text: 'Share this post!'
+share_text: '分享这篇文章!'
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false

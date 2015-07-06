@@ -6,7 +6,7 @@ layout: default
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
-
+<link rel="stylesheet" href="/stylesheets/pygments_trac.css">
 <div class="post-header mb2">
     <h1>{{ page.title }}</h1>
     <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span><br>
@@ -58,3 +58,4 @@ layout: default
 </div>
 {% endfor %}
 {% endif %}
+<body onload="prettyPrint()">

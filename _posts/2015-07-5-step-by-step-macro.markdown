@@ -18,10 +18,27 @@ categories: Clojure
 
 
 ### 代码块
-<pre>
-	<code>
-(defn why-now
-    []
-     (why-now (first why-now)))
-</code>
-</pre>
+{% highlight clojure %}
+(defmacro some-macro []
+    ~@alll
+)
+
+;;this is the coments
+(defn church-number[])
+(println "hello world")
+{% endhighlight %}
+
+{% highlight java %}
+public class HelloWorld {
+    public static void main(String args[]) {
+      System.out.println("Hello World!");
+    }
+}
+{% endhighlight %}
+
+```clojure
+(defn new-styl[] dosomething -> (do))
+```
+```python
+print("hello, world")
+```

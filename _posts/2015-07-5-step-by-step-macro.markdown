@@ -4,41 +4,96 @@ title:  "深入浅出宏"
 date:   2015-06-30 10:29:11
 categories: Clojure
 ---
+##为什么有这篇博客
+> 接触clojure/lisp有一年多了，初衷只是为了把SICP上的题都做完。做到后面发现对这个语言族产生了很大的兴趣。于是把重点从clojure学习SICP变成了通过SICP更好得理解lisp。
 
-###概述
+> Clojure作为Lisp的一个JVM平台方言，对于没有Lisp经验的程序员来说学习曲线是非常陡的。我觉得其中有几个难点（按掌握有限顺序进行排序）
 
-###宏的历史及比较
++ 学会把函数作为数据进行传递和处理
++ 通过递归分解和处理问题
++ filter accumulation 的通用模式的应用
++ 宏
++ 理解环境（$env) 在apply和eval中的作用
 
-###clojure中宏的实现
 
-###编写一个有用的debug宏
+今天我们在这里来聊聊宏，因为有C语言的背景，所以内容不会仅限于Clojure中的宏。而在学习和应用宏的过程中遇到了很多问题，希望通过一篇博客把知识归纳总结出来。之所以是宏，是因为宏最难掌握切容易混淆其中的概念。
+***
 
-###注意事项
+###宏的分类
+* 预编译宏 
+<br>这里最典型的例子就是c语言。其中的宏定义如下，（当然比较好的作法是加上#ifdef).
+
+```c
+#define min(X, Y) \
+    do { \
+    ((X) < (Y) ? (X) : (Y)) \
+    } while(0)\
+```
+
+
+ 这段宏的意思是把找出最小（不限制类型），作为一个通用的过程以宏的形式提供出来。这样做的好处是，跳出了静态强类型语言对类型的限制，可以在更高的语义层次上提供抽象。即，对所有的事物比对大小。
+ 
+ 这段宏会在预编译期间把所有min(parameter1, paramerter2)的**文本内容**替换成对应的内容即
+ 
+```c
+ ((X) < (Y) ? (X) : (Y))
+ 
+ //e.g   x = min(a, b);          ==>  x = ((a) < (b) ? (a) : (b));
+ //      z = min(a + 28, *p);    ==>  z = ((a + 28) < (*p) ? (a + 28) : (*p));
+```
+ 
+ 之后，完成预编译过程。并开始编译过程。
+ 
+但是，即便这样短小的宏中我们也可以看到一些通用的问题，例如：
+
+*函数与宏，宏与宏的深度嵌套会导致语义过誉复杂。我们说过x y可以是任何东西，指针，结构体，函数。*
+
+*多重调用，如果传入一个函数f到min之中那么预编译后其结果就可能在运行过程中函数被多次调用*
+
+* 自引用宏的问题，当一个宏交叉引用另一个宏时，出现定义递归，成为非法C代码* 
+
+
+ 
+ 
+* 抽象语法树宏      <br>由于lisp的方言其程序本身就是一棵[抽象语法树](https://en.wikipedia.org/wiki/Abstract_syntax_tree)。这就省去了预编译这个过程的必要性，而事实也是几乎没有lisp的方言有预编译阶段。
+当clojure文本被reader读入成为AST的时候，这个时候其中的宏就会在被调用时展开，替换对应树中的节点。
+
+一般来讲，clojure中的宏的工作方式如下
+
+ 
+
+###组装宏的螺丝和改刀
+
+> 你需要知道的四种构建宏的工具
+
+* ##### 引用
+
+* ##### 语法引用
+
+* ##### 反引用
+
+* ##### 展开反引用
+
+###开工 
+>编写一个有用的debug宏
+
+###宏的应用场景及注意事项
 
 
 
 ### 代码块
-{% highlight clojure %}
-(defmacro some-macro []
-    ~@alll
-)
 
-;;this is the coments
-(defn church-number[])
-(println "hello world")
-{% endhighlight %}
-
-{% highlight java %}
-public class HelloWorld {
-    public static void main(String args[]) {
-      System.out.println("Hello World!");
-    }
-}
-{% endhighlight %}
 
 ```clojure
 (defn new-styl[] dosomething -> (do))
+(every? has? pre col)
 ```
 ```python
 print("hello, world")
 ```
+ ```c
+ ((X) < (Y) ? (X) : (Y))
+ 
+ //e.g   x = min(a, b);          ==>  x = ((a) < (b) ? (a) : (b));
+ //      z = min(a + 28, *p);    ==>  z = ((a + 28) < (*p) ? (a + 28) : (*p));
+ ```

@@ -1,6 +1,9 @@
+#pluigins
+gems: [jekyll-paginate]
+
 # Site settings
 title:       "演程序猿的员"
-email:       yangyang@thoughtworks.com
+email:       yangmeansyoung@gmail.com
 author:      Yang Yang
 description: "演有致极，技无穷尽"
 baseurl:     ""
@@ -32,7 +35,7 @@ flattr_button:
 
 # Post sharing icons
 show_sharing_icons: true
-share_text: '分享这篇文章!'
+share_text: 'share this!'
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
@@ -45,11 +48,20 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
-highlighter: pygments
-markdown:     redcarpet
+markdown:    kramdown
+highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
   permalink:    /:month-:day-:year/:title.html
 paginate:     3
+paginate_path: "/blog/page:num/"
 sass:
   compressed: true
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false

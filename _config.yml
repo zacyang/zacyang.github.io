@@ -2,12 +2,12 @@
 gems: [jekyll-paginate]
 
 # Site settings
-title:       "演程序猿的员"
-email:       yangmeansyoung@gmail.com
+title:       "最强(壮)的程序员"
+email:       
 author:      Yang Yang
 description: "演有致极，技无穷尽"
 baseurl:     ""
-url:         "http://zacyang.github.io/"
+url:         "https://www.yangyang.ninja/"
 
 # Google analytics
 google_analytics: "UA-64709665-1"

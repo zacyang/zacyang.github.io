@@ -37,13 +37,19 @@ BUT，发来的是Offer。。。
 然后，精彩的来了。。。
 
 三周后（按理background check 就结束了，正式的contract也会签了）， 收到AWS HR的电话
+
+```
 ....
 HR: "BTW, how's your background check going? "
-ME: "What background?"
-HR: "The background check process which you should have received a mail the day you accepted the offer?"
-ME: "What mail?"
-HR: "Let me double check..."
 
+ME: "What background?"
+
+HR: "The background check process which you should have received a mail the day you accepted the offer?"
+
+ME: "What mail?"
+
+HR: "Let me double check..."
+```
 也就是说他们搞忘了要发一个邮件kick start 背景检查。。。ANYWAY
 
 刚弄好了，这下真的真的真的开始背景检查了。 Coronavirus来了。。。。

@@ -5,8 +5,6 @@ date:   2015-06-30 10:29:11
 categories: Clojure
 ---
 
-## 前言
-
 > 接触clojure/lisp有一年多了，初衷只是为了把SICP上的题都做完。做到后面发现对这个语言族产生了很大的兴趣。于是把重点从clojure学习SICP变成了通过SICP更好得理解lisp。
 
 > Clojure作为Lisp的一个JVM平台方言，对于没有Lisp经验的程序员来说学习曲线是非常陡的。我觉得其中有几个难点（按掌握有限顺序进行排序）

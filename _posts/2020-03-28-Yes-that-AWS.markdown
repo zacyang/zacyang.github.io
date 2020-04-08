@@ -7,7 +7,8 @@ categories: General
 
 > 在AfterPay工作了一年多了，完全没有任何想闪人的想法。项目组人（工程师）都很不错，技术很强。Tech Lead又是一个很Nice的前同事。BUT
 
-因为我是亚马逊AWS个人用户以及亚马逊Prime老会员。 AWS上个月打电话来找我去面试。
+因为我是亚马逊AWS个人用户+亚马逊Prime5年老会员+Amazon Audible + 3代Kindle拥有者。
+也许是基于对用户的热爱(Amzone leadership 1st principle -> Customer Obsession) AWS上个月打电话来找我去面试。
 
 其实去年就去面过，是一个架构师职位，一共五轮，毫无疑问的因为我没那个精钢钻死在了最后一轮。However，他们的feedback说法是因为架构师需要client facing的经验和技能，也就是客气的给我说你英语太辣鸡了。以后有工程师职位会联系你。
 

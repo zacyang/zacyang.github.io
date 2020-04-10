@@ -1,5 +1,6 @@
 #pluigins
 gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Site settings
 title:       "最强(壮)的程序员"
@@ -54,7 +55,7 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
   # permalink:    /:month-:day-:year/:title.html
 paginate:     3
-paginate_path: "/blog/page:num/"
+# paginate_path: "/page:num/"
 sass:
   compressed: true
 

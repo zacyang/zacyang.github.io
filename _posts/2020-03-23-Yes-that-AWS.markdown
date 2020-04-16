@@ -1,18 +1,25 @@
 ---
 layout: post
 title:  "亚马逊充会员送Offer"
-date:   2020-03-28 10:29:11
+date:   2020-03-23 10:29:11
 categories: General
 ---
 
 > 在AfterPay工作了一年多了，完全没有任何想闪人的想法。项目组人（工程师）都很不错，技术很强。Tech Lead又是一个很Nice的前同事。BUT
 
-因为我是亚马逊AWS个人用户+亚马逊Prime5年老会员+Amazon Audible + 3代Kindle拥有者。
+也许因为我是
+1. 亚马逊AWS个人用户
+2. 亚马逊Prime5年老会员
+3. Amazon Audible
+4. 3代Kindle拥有者。
+
 也许是基于对用户的热爱(Amzone leadership 1st principle -> Customer Obsession) AWS上个月打电话来找我去面试。
 
-其实去年就去面过，是一个架构师职位，一共五轮，毫无疑问的因为我没那个精钢钻死在了最后一轮。However，他们的feedback说法是因为架构师需要client facing的经验和技能，也就是客气的给我说你英语太辣鸡了。以后有工程师职位会联系你。
+其实去年就去面过，是一个架构师职位，一共五轮，毫无疑问的因为我没那个精钢钻死在了最后一轮。However，他们的feedback简单来说就是
 
-我以为只是一个礼貌的说法，然而。
+![Feed back](/images/aws_feedback.jpg)
+
+然后说以后有合适(只写代码不说话)的职位会联系我，我以为只是一个礼貌的说法，然而。
 
 ## 面试过程
 
@@ -29,9 +36,9 @@ team lead面试，是之前领导EC2项目的一个工程师。基本就是技�
 ### 然后 
 过了漫长鸟无音讯的两周，感觉基本没戏的时候发了一份邮件给HR问结果，她说会给我一个Outcome。 这种说法看来就是完全挂了。
 
-BUT，发来的是Offer。。。
+BUT，二月底发来了的是Offer。。。
 
-想了一下还是接了Offer （亚马逊说他们会开始background check），however，因为才开始有房贷，为了避免出什么幺蛾子并没有和项目组说。（工作效率也直线下降。。。愧疚）
+想了一下还是接了Offer （亚马逊说他们会开始background check），however，因为才开始有房贷，为了避免出什么幺蛾子并没有和项目组说并且和亚马逊说了签了合同才会提离职。（工作效率也直线下降。。。愧疚）
 
 然后，精彩的来了。。。
 
@@ -43,17 +50,20 @@ HR: "BTW, how's your background check going? "
 
 ME: "What background?"
 
-HR: "The background check process which you should have received a mail the day you accepted the offer?"
+HR: "The background check process which you 
+should have received a mail the day you accepted the offer?"
 
 ME: "What mail?"
 
 HR: "Let me double check..."
 ```
-也就是说他们搞忘了要发一个邮件kick start 背景检查。。。ANYWAY
+也就是说他们搞忘了要发一个邮件kick start 背景检查，三周的时间就等于白等了。
+
+ANYWAY
 
 刚弄好了，这下真的真的真的开始背景检查了。 Coronavirus来了。。。。
 
-墨尔本全部WFH，新的AWS大哥发了邮件给我，我需要从第一天开始就WFH，这他妈还真的是晕云入职。
+墨尔本全部WFH，新的AWS大哥发了邮件给我，我需要从第一天开始就WFH，这他妈还真的是云入职。
 
 ---------
 

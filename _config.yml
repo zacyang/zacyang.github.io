@@ -4,9 +4,9 @@ plugins: [jekyll-paginate]
 
 # Site settings
 title:       "最强(壮)的程序员"
-email:       
+email:       yangmeansyoung@gmail.com
 author:      Yang Yang
-description: "演有致极，技无穷尽"
+description: "开猿软贱"
 baseurl:     ""
 url:         "https://www.yangyang.ninja/"
 

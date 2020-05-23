@@ -5,8 +5,6 @@ date:   2020-05-23 12:29:11
 categories: SaturdayThinkingGame
 ---
 
-# What makes a good engineer
-
 Recently I have been watching/reading Professor [Jordan Peterson](https://www.wikiwand.com/en/Jordan_Peterson)
 Mine mind was transfixated by his way of express controversal ideas/thoughts in a way that both logical and blunt.
 Like all good lectures do, they tend to trigger your own thinking process. I'd like to use this quarantine time during the pandamic to talk about and break down what makes a good engineer.
@@ -14,7 +12,7 @@ Like all good lectures do, they tend to trigger your own thinking process. I'd l
   - Generalized ability of a good eengineer
   - The congnitive ability required to achieve the goals
 
-# The treats of a good engineer
+## The treats of a good engineer
 Based on my own experince and my witness of those who widely acceptpted as good engineer in my carrer. I think (without any hard data to back it up), a good engineer tend to have those 4 main traits:
   - Ability to learn new skills
   - Ability to come up with a good solution to a given problem
@@ -23,7 +21,7 @@ Based on my own experince and my witness of those who widely acceptpted as good 
 
 ![Feed back](/images/thinking_process.png)
 
-# Generalized ability of a good eengineer
+## Generalized ability of a good eengineer
 So logically, those traits could be summarized as a process of get raw infomation/data and transform them into results.
 
 
@@ -31,10 +29,10 @@ You can see also:
   - The processes on process data and best on result to find new data are curicial to good results
   - This is a loop, meaning there's another elment of assement ability envolved otherweise it is not going to stop
  
-# The congnitive ability required to achieve the goals
+## The congnitive ability required to achieve the goals
 Let's break down those process see what kind of conginitive abilities are required
 
-### A typical problem solving process
+#### A typical problem solving process
 1. Understanding of the problem domain
 2. Search for existing solution
 3. When no existing solution exists, some hyposthis would be formed (logical reasonning)
@@ -43,7 +41,7 @@ Let's break down those process see what kind of conginitive abilities are requir
 6. After a prototype is created, we need to verify the consistent with the solution and the expected result, this could drive the requirement of more data to do furth assement
 7. Should more data is needed, we need start searching for data fits the requirment (Pattern matching)
 
-# Summary
+## Summary
 As you can see, the most imporant abilities are:
 * Logical reasonning
 * Abstract thinking

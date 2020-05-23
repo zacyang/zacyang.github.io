@@ -8,11 +8,11 @@ categories: SaturdayThinkingGame
 Recently I have been watching/reading Professor [Jordan Peterson](https://www.wikiwand.com/en/Jordan_Peterson)
 Mine mind was transfixated by his way of express controversal ideas/thoughts in a way that both logical and blunt.
 Like all good lectures do, they tend to trigger your own thinking process. I'd like to use this quarantine time during the pandamic to talk about and break down what makes a good engineer.
-  - The treats of a good engineer
+  - The traits of a good engineer
   - Generalized ability of a good eengineer
   - The congnitive ability required to achieve the goals
 
-## The treats of a good engineer
+## The traits of a good engineer
 Based on my own experince and my witness of those who widely acceptpted as good engineer in my carrer. I think (without any hard data to back it up), a good engineer tend to have those 4 main traits:
   - Ability to learn new skills
   - Ability to come up with a good solution to a given problem

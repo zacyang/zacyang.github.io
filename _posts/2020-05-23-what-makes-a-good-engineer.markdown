@@ -6,7 +6,7 @@ categories: SaturdayThinkingGame
 ---
 
 Recently I have been watching/reading Professor [Jordan Peterson](https://www.wikiwand.com/en/Jordan_Peterson)
-Mine mind was transfixated by his way of express controversal ideas/thoughts in a way that both logical and blunt.
+My mind was transfixated by his way of expressing controversal ideas/thoughts which is both logical and blunt.
 Like all good lectures do, they tend to trigger your own thinking process. I'd like to use this quarantine time during the pandamic to talk about and break down what makes a good engineer.
   - The traits of a good engineer
   - Generalized ability of a good eengineer
@@ -23,6 +23,11 @@ Based on my own experince and my witness of those who widely acceptpted as good 
 
 ## Generalized ability of a good eengineer
 So logically, those traits could be summarized as a process of get raw infomation/data and transform them into results.
+Specifically, in the above traits, they are associated with:
+  - Ability to absorb information to yourself
+  - Ability to apply learning to the project
+  - Ability to project your view on others
+  - Ability to accumulate the information
 
 
 You can see also:
@@ -34,11 +39,11 @@ Let's break down those process see what kind of conginitive abilities are requir
 
 #### A typical problem solving process
 1. Understanding of the problem domain
-2. Search for existing solution
-3. When no existing solution exists, some hyposthis would be formed (logical reasonning)
+2. Search for existing solutions
+3. When no existing solution exists, some hypophyses would be formed (logical reasonning)
 4. Then amoung those newly formed hypophyses, you need to pick one or some most likely to sucess (least effort law, which requires ability to caculate the likelyhood roughly in your mind)
-5. After that, we need to find associted data to fill in the gap, this requires the ability of abstract thinking and logical reasonning 
-6. After a prototype is created, we need to verify the consistent with the solution and the expected result, this could drive the requirement of more data to do furth assement
+5. After that, we need to find associated data to fill in the gap, this requires the ability of abstract thinking and logical reasonning 
+6. After a prototype is created, we need to verify the deviation with the solution and the expected result, this could drive the requirement of more data to do furth assement
 7. Should more data is needed, we need start searching for data fits the requirment (Pattern matching)
 
 ## Summary
